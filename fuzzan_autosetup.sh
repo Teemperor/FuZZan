@@ -2,7 +2,7 @@
 set -e
 
 # install prerequisite package
-sudo apt install prelink patchelf
+sudo apt install -y prelink patchelf
 
 # build llvm as native version
 echo "build llvm"
